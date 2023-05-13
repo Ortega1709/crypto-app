@@ -1,4 +1,4 @@
-package com.ortega.crypto_app
+package com.ortega.crypto_app.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,8 +10,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.ortega.crypto_app.ui.theme.CryptoappTheme
-
+import com.ortega.crypto_app.presentation.ui.theme.CryptoappTheme
+import dagger.hilt.EntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

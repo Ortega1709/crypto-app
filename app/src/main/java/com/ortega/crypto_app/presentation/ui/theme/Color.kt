@@ -1,4 +1,4 @@
-package com.ortega.crypto_app.ui.theme
+package com.ortega.crypto_app.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

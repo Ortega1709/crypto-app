@@ -1,4 +1,4 @@
-package com.ortega.crypto_app.ui.theme
+package com.ortega.crypto_app.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build
